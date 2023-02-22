@@ -1,0 +1,23 @@
+.myButtons button {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+.myButtons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.myButtons .circle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    /*padding: 10px;*/
+    /*font-size: 24px;*/
+    border-radius: 50px;
+}
+
+.isActive{
+    background-color: green!important;
+}
